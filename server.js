@@ -17,11 +17,11 @@ const PORT = process.env.PORT || 4000
 
 
 
-// app.get('/' ,function (req,res){
+app.get('/' ,function (req,res){
 
-//         res.send("hello")
+        res.send("hello")
 
-// })
+})
 
 const userRoutes = require('./routes/userRoutes');
 
